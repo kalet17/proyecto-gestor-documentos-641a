@@ -1,0 +1,17 @@
+# Normaliza los finales de línea en el repositorio
+* text=auto eol=lf
+
+# Archivos ejecutables y de configuración
+*.sh text eol=lf
+*.bash text eol=lf
+Dockerfile text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Archivos binarios
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.drawio binary
+

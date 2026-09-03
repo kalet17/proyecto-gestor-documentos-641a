@@ -1,0 +1,34 @@
+# Credenciales y configuración local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+credentials
+credentials.json
+.aws/
+
+# Estado de infraestructura
+terraform.tfstate
+terraform.tfstate.*
+.terraform/
+
+# Dependencias y archivos temporales
+node_modules/
+__pycache__/
+*.log
+target/
+build/
+.gradle/
+
+# Editores
+.idea/
+.vscode/
+*.iml
+
+# Sistemas operativos
+Thumbs.db
+desktop.ini
+.DS_Store
+
